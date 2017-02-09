@@ -2,7 +2,7 @@
 
 @using CatLib.Models
 
-@Html.BeginForm()
+@using (Html.BeginForm())
 { 
     <h3>@Html.LabelFor(model => model.names)</h3> <br />
     <h3>@Html.EditorFor(model => model.names)</h3> <br />
